@@ -1,5 +1,6 @@
 import { Box } from "@mui/system";
 import Header from "../../components/Header";
+import ProgressCircle from "../../components/ProgressCircle";
 
 const Dashboard = () => {
   return (
@@ -11,6 +12,7 @@ const Dashboard = () => {
       >
         <Header title="DASHBOARD" subtitle="Welcome to your dashboard"></Header>
       </Box>
+      <ProgressCircle></ProgressCircle>
     </Box>
   );
 };
