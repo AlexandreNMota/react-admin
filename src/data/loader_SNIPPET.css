@@ -1,3 +1,8 @@
+/* <div class="loader-container">
+  <div id="loader"></div>
+  <p class="loader-text">Loading...</p>
+</div> */
+
 #loader {
   margin: auto;
   border-radius: 50%;
@@ -5,111 +10,119 @@
   height: 400px;
   animation: rotate 2s linear infinite;
 }
+.loader-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+}
 
 @keyframes rotate {
   0% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 0deg, blue 0deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   5% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 18deg, blue 18deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   10% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 36deg, blue 36deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   15% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 54deg, blue 54deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   20% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 72deg, blue 72deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   25% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 90deg, blue 90deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   30% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 108deg, blue 108deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   35% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 126deg, blue 126deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(;-5deg);
   }
   40% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 144deg, blue 144deg 360deg), green;
-    transform: rotate(10deg);
+    transform: rotate(-5deg);
   }
   45% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 162deg, blue 162deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   50% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 180deg, blue 180deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   55% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 198deg, blue 198deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   60% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 216deg, blue 216deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   65% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 234deg, blue 234deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   70% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 252deg, blue 252deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   75% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 270deg, blue 270deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   80% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 288deg, blue 288deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   85% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 306deg, blue 306deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   90% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 324deg, blue 324deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   95% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 342deg, blue 342deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   100% {
     background: radial-gradient(white 55%, transparent 56%),
       conic-gradient(transparent 0deg 360deg, blue 360deg 360deg), green;
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
 }
