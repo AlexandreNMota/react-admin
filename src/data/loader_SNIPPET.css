@@ -9,6 +9,7 @@
   width: 400px;
   height: 400px;
   animation: rotate 2s linear infinite;
+  
 }
 .loader-text {
   position: absolute;
